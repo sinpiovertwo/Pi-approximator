@@ -36,7 +36,7 @@ def mypi(n):
         y = 200 * m.sin(m.radians(i * 360/n))  
         t.goto(x, y)  
     t.goto(200, 0)
-       #t.circle(100, steps=n)도 가능하지만 좌표계산법에 비해 시간이 더 오래 걸리기 때문에 쓰지 않았습니다.
+       #t.circle(200, steps=n)도 가능하지만 좌표계산법에 비해 시간이 더 오래 걸리기 때문에 쓰지 않았습니다.
    
     t.color("red") #외접다각형 그리기
     k = 200 / m.cos(m.radians(theta))  #외접다각형의 시작점 x좌표
